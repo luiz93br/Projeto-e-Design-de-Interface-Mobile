@@ -87,58 +87,35 @@ dt {
 }
 
 /* Structure layout comum*/
-body, .header, .navigation, .footer {
-  width: 960px;
-}
+
 .header, .navigation, .footer {
   clear: both;
 }
-.column {
-  margin: 10px 10px 0 0;
-}
+
 .navigation {
   min-height: 25px;
 }
-.navigation ul li {
-  width: 320px; /* 960/3 */
-}
+
+
 .header {
   background:url(images/w.png) no-repeat;
   height: 200px;
 }
-#visit {
-  width: 240px;
-  float: left;
-}
-#points {
-  width: 240px;
-  float: right;
-}
-#main {
-  margin: 10px 260px 0 250px;
-  width: 460px;
-}/* Common end */
+/* Common end */
 
 /* Desktop Structure -layout para computador*/
 body, .header, .navigation, .footer {
   width: 960px;
 }
-.header, .navigation, .footer {
-  clear: both;
-}
+
 .column {
   margin: 10px 10px 0 0;
 }
-.navigation {
-  min-height: 25px;
-}
+
 .navigation ul li {
   width: 320px; /* 960/3 */
 }
-.header {
-  background:url(images/w.png) no-repeat;
-  height: 200px;
-}
+
 #visit {
   width: 240px;
   float: left;
@@ -149,7 +126,7 @@ body, .header, .navigation, .footer {
 }
 #main {
   margin: 10px 260px 0 250px;
-  width: 460px;
+  
 }
 
 /* Mobile Structure - layout movel*/
