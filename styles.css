@@ -103,6 +103,7 @@ dt {
 }
 /* Common end */
 
+@media screen and (min-width:481px){
 /* Desktop Structure -layout para computador*/
 body, .header, .navigation, .footer {
   width: 960px;
@@ -128,7 +129,9 @@ body, .header, .navigation, .footer {
   margin: 10px 260px 0 250px;
   
 }
+}
 
+@media screen and (max-width:480px){
 /* Mobile Structure - layout movel*/
 body, .header, .navigation, .footer {
   width: 320px;
@@ -156,4 +159,5 @@ body, .header, .navigation, .footer {
 }
 #main {
   width: 320px;
+}
 }
