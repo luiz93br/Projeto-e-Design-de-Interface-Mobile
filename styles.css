@@ -17,7 +17,7 @@
 body {
 	background: #f9f3e9;
 	color: #594846;
-	font: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+	font: 100% "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
 }
 a, a:visited {
   color: #42628F;
@@ -88,7 +88,7 @@ dt {
 
 /* Structure layout comum*/
 
-.header, .navigation, .footer {
+.header, .footer {
   clear: both;
 }
 
@@ -96,27 +96,30 @@ dt {
   min-height: 25px;
 }
 
+img, object{
+  max-width:100%
+}
+
+.navigation ul li{
+  width: 33.333%;
+}
+
 
 .header {
   background:url(images/w.png) no-repeat;
   height: 200px;
 }
+
+.head, .footer, .navigation{
+  width: 100%
+}
 /* Common end */
 
 @media screen and (min-width:481px){
 /* Desktop Structure -layout para computador*/
-body, .header, .navigation, .footer {
-  width: 100%;
-}
-
 .column {
   margin: 10px 1.04166667% 0 0;
 }
-
-.navigation ul li {
-  width: 33.333333%; /* 960/3 */
-}
-
 #visit {
   width: 25%;
   float: left;
@@ -138,26 +141,19 @@ body, .header, .navigation, .footer {
 }
 
 .column {
-  margin: 10px 0;
-}
-
-.navigation ul li {
-  width: 106.67px; /* 320/3 */
-}
-
-.header {
-  background:url(images/w.png) no-repeat;
-  height: 200px;
+  margin: 1em 0;
+  border-bottom: 1px dashed
+  #7b96bc;
 }
 #visit {
-  width: 320px;
+  width: 100%;
   
 }
 #points {
-  width: 320px;
+  width: 100%;
   
 }
 #main {
-  width: 320px;
+  width: 100%;
 }
 }
