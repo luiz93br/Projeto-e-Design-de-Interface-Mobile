@@ -106,27 +106,27 @@ dt {
 @media screen and (min-width:481px){
 /* Desktop Structure -layout para computador*/
 body, .header, .navigation, .footer {
-  width: 960px;
+  width: 100%;
 }
 
 .column {
-  margin: 10px 10px 0 0;
+  margin: 10px 1.04166667% 0 0;
 }
 
 .navigation ul li {
-  width: 320px; /* 960/3 */
+  width: 33.333333%; /* 960/3 */
 }
 
 #visit {
-  width: 240px;
+  width: 25%;
   float: left;
 }
 #points {
-  width: 240px;
+  width: 25%;
   float: right;
 }
 #main {
-  margin: 10px 260px 0 250px;
+  margin: 10px 27.0833333% 0 26.0416667%;
   
 }
 }
